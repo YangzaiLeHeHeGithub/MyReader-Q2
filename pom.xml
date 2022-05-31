@@ -13,6 +13,8 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <spring-boot.version>2.4.1</spring-boot.version>
+        <gson-version>2.9.0</gson-version>
+        <common-io-version>2.11.0</common-io-version>
     </properties>
 
     <dependencies>
@@ -24,6 +26,18 @@
 <!--            <groupId>org.springframework.boot</groupId>-->
 <!--            <artifactId>spring-boot-starter-data-mongodb</artifactId>-->
 <!--        </dependency>-->
+        <dependency>
+            <groupId>com.google.code.gson</groupId>
+            <artifactId>gson</artifactId>
+            <version>${gson-version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>commons-io</groupId>
+            <artifactId>commons-io</artifactId>
+            <version>${common-io-version}</version>
+        </dependency>
+
         <dependency>
             <artifactId>mysql-connector-java</artifactId>
             <groupId>mysql</groupId>
