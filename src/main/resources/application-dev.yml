@@ -1,0 +1,20 @@
+server:
+  tomcat:
+    accept-count: 8
+    max-connections: 100
+
+
+
+x-mysql:
+  url: jdbc:mysql://localhost:6666/x_reader
+  username: 6666
+  password: 6666
+
+#redis:
+
+#spring:
+#  jpa:
+#    show-sql: true
+#    properties:
+#      hibernate:
+#        format_sql: true

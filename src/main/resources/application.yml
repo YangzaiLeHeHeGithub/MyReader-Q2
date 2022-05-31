@@ -1,0 +1,21 @@
+# 应用名称
+server:
+  port: 8354
+  servlet:
+    context-path: /loader
+
+x-mysql:
+  url: jdbc:mysql://localhost:6666/x_reader
+  username: 6666
+  password: 6666
+spring:
+  application:
+    name: x-reader-loader
+  datasource:
+    url: ${x-mysql.url}
+    username: ${x-mysql.username}
+    password: ${x-mysql.password}
+    driver-class-name: com.mysql.jdbc.Driver
+  jpa:
+    hibernate:
+      ddl-auto: none
