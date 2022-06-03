@@ -1,0 +1,4 @@
+#Example Tester
+
+GET {{host}}/loader/reader/book/parser
+###

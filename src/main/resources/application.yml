@@ -5,9 +5,10 @@ server:
     context-path: /loader
 
 x-mysql:
+#  url: jdbc:mysql://localhost:3306/x_reader?useUnicode=true&characterEncoding=UTF-8&useSSL=false&serverTimezone=Asia/Shanghai&zeroDateTimeBehavior=CONVERT_TO_NULL
   url: jdbc:mysql://localhost:6666/x_reader
-  username: 6666
-  password: 6666
+  username: root
+  password: root
 spring:
   application:
     name: x-reader-loader
